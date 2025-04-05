@@ -82,7 +82,7 @@ pnpm add -D tsx
 2. Then you can run the script directly:
 
 ```bash
-npx tsx index.ts
+npx tsx script.ts
 ```
 
 ---
@@ -90,7 +90,7 @@ npx tsx index.ts
 ## 📂 Project Structure
 
 ```bash
-├── index.ts        # Entry point (main script)
+├── script.ts        # Entry point (main script)
 ├── package.json
 ├── tsconfig.json   # TypeScript configuration
 └── dist/           # Compiled JS output (after build)
@@ -155,7 +155,7 @@ If you prefer not to compile every time, modify the function to use `tsx` and ru
 ```powershell
 function yt-download {
   $Path = "C:\path\to\your\project"  # Update this to your project folder path
-  npx tsx "$Path/index.ts"
+  npx tsx "$Path/script.ts"
 }
 ```
 
